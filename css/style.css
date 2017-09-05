@@ -1,0 +1,67 @@
+.menu-bar {
+  display: none; }
+
+.menu {
+  display: inline-block;
+  background: #FFFFFF;
+  width: 100%;
+  padding: 15px 0;
+  overflow: hidden; }
+  .menu .links {
+    float: right;
+    margin-right: 10em; }
+  .menu a {
+    font-family: monospace, monospace;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000;
+    padding: 20px 15px;
+    transition: all 1s ease;
+    text-decoration: none; }
+  .menu a:hover {
+    background: rgba(255, 133, 27, 0.8);
+    color: #FFFFFF; }
+
+@media screen and (max-width: 900px) {
+  .menu {
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    padding: 10px 5px;
+    position: fixed;
+    background: rgba(255, 133, 27, 0.8);
+    color: #FFF; }
+    .menu .links {
+      display: block;
+      float: none;
+      font-size: 1.2em;
+      width: 100%; }
+      .menu .links a {
+        display: block;
+        color: #FFFFFF;
+        border-bottom: 1px solid #FFFFFF; }
+
+  .menu-bar {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 133, 27, 0.8);
+    top: 0; }
+    .menu-bar span {
+      letter-spacing: 0.3em; }
+    .menu-bar .fa-bars {
+      display: block;
+      font-weight: bold;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #fff; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #B5B5B5; }
+
+/*# sourceMappingURL=style.css.map */
