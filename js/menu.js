@@ -1,6 +1,7 @@
 $(document).ready(main);
  
 var contador = 1;
+var alto;
  
 function main(){
 	$('.menu-bar').click(function(){
@@ -16,4 +17,11 @@ function main(){
 			});
 		}
 	});
+	center();
 };
+
+function center() {
+	alto = ($(window).height()/2) - $('.logo').height()/2;
+	console.log("El alto es de" + alto);
+	$('.logo').css("top",alto);
+}

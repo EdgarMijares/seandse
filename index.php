@@ -23,7 +23,31 @@
 				<a href="#">Contacto</a>
 			</div>
 		</div>
+		<div class="banner">
+			<img src="img/logo.svg" alt="Logo" class="logo">
+		</div>
 	</header>
+
+	<div class="acerca">
+		<h2>Acerca de</h2>
+		
+		<div class="shape"></div>
+		<div class="mision">
+			<p>
+				Misión: <br>
+				Ser una empresa especialista de servicios de fletes, 
+				mudanzas y Transportación de bienes muebles y 
+				mercancías, brindándoles un servicio de alta 
+				calidad logística en el cuidado de bienes y
+				productos conun destino seguro, con un 
+				sello de honestidad y espíritu de 
+				servicio.
+			</p>
+		</div>
+		<div class="vision">
+			
+		</div>
+	</div>
 	
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/menu.js"></script>
