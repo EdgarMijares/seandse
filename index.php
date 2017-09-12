@@ -6,8 +6,11 @@
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.min">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" type="text/css"s rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -39,6 +42,9 @@
 	</body>
 	
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="vendors/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
 	<script src="js/menu.js"></script>
 </body>
 </html>
