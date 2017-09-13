@@ -14,24 +14,22 @@
 </head>
 <body>
 	
-		
-	
-	
 	<body>
 		<div id="fullpage">
-
 			<div class="section">
-				<header>
-					<?php include("menu.html") ?>
-				</header>
+			<header>
+		<?php include("menu.html") ?>
+	</header>
 				<div class="banner">
 					<img src="img/logo.svg" alt="Logo" class="logo">
 				</div>
 			</div>
-			<div class="section">Seccion 2</div>
-			<div class="section">Seccion 3</div>
-			<div class="section">Seccion 4</div>
-			<div class="section">Seccion 5</div>
+			<div class="pantalla-dos section ">
+				
+			</div>
+			<div class="pantalla-tres section">Seccion 3</div>
+			<div class="pantalla-cuatro section">Seccion 4</div>
+			<div class="pantalla-cinco section">Seccion 5</div>
 		</div>
 	</body>
 	

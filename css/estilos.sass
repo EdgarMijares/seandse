@@ -1,16 +1,12 @@
 //VARIABLES
 $blanco: #FFFFFF
 $naranja: rgba(255, 133, 27, .8)
-
+$marca: #ff7400
 $naranja2: rgba(255, 133, 27, 1)
 $naranja3: rgba(255, 133, 27, .5)
 
 $fuente: monospace, monospace
-
-//IMPORTS
-@import _menu
-
-
+//RESET
 *
 	margin: 0
 	padding: 0
@@ -19,5 +15,37 @@ $fuente: monospace, monospace
 	-ms-box-sizing: border-box
 	-o-box-sizing: border-box
 	box-sizing: border-box
+
+//IMPORTS
+@import _menu
+
 body
 	background: #FFF
+
+.pantalla-dos
+	background: url(../img/pantallas/1.png)   no-repeat
+	background-position: right
+	background-size: cover
+	width: 100%
+	height: 100%
+
+.pantalla-tres
+	background: url(../img/pantallas/2.png)  center no-repeat
+	background-position: left
+	background-size: cover
+	width: 100%
+	height: 100%
+
+.pantalla-cuatro
+	background: url(../img/pantallas/3.png)  center no-repeat
+	background-position: center center no-repeat
+	background-size: cover
+	width: 100%
+	height: 100%
+
+.pantalla-cinco
+	background: url(../img/pantallas/4.png) no-repeat
+	background-position: right
+	background-size: cover
+	width: 100%
+	height: 100%
