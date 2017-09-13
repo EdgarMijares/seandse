@@ -34,7 +34,7 @@ function center() {
 
 function fullpag() {
 	$('#fullpage').fullpage({
-		 sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-		 paddingTop: '0',
+		 sectionsColor: ['#FFF', 'orange', '#C0C0C0', '#ADD8E6'],
+		 paddingTop: '1.6em',
 	});
 }
