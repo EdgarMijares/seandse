@@ -17,9 +17,9 @@
 	<body>
 		<div id="fullpage">
 			<div class="section">
-			<header>
-		<?php include("menu.html") ?>
-	</header>
+				<header>
+					<?php include("menu.html") ?>
+				</header>
 				<div class="banner">
 					<img src="img/logo.svg" alt="Logo" class="logo">
 				</div>
