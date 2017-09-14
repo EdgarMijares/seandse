@@ -49,7 +49,33 @@
 			</div>
 			<div class="pantalla-tres section">
 				<div class="container">
-					
+					<div class="row">
+						<div class="col s12 m4">
+							<h3>Equipo</h3>
+						</div>
+						<div class="col s12 m8">
+							<h3>Mercedez-Benz sprinter</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 offset-m4">
+							<div class="row">
+								<div class="col s12 m6">
+									<img src="img/mercedez.jpg" width="90%" alt="">
+								</div>
+								<div class="col s12 m4">
+									<p>Dimensiones de cajaseca:</p>
+									<p>Largo: 5.0mts.<br>Alto: 2.22mts.<br>Ancho: 2.20mts.</p><br>
+									<p>Copete: <br>Largo: 1.20 mts. <br>Alto:0.95mts. <br>Ancho: 2.20mts</p><br>
+									<p>Capacidad de Carga: 4.5 toneladas.</p>
+								</div>
+							</div>
+
+							
+
+
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="pantalla-cuatro section">Seccion 4</div>
