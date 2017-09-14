@@ -133,6 +133,10 @@ body {
   .container .logo {
     width: 20%; }
 
+img.center {
+  display: block;
+  margin: auto; }
+
 @media screen and (max-width: 900px) {
   .container {
     font-size: 1em;

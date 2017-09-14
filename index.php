@@ -70,15 +70,18 @@
 									<p>Capacidad de Carga: 4.5 toneladas.</p>
 								</div>
 							</div>
-
-							
-
-
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="pantalla-cuatro section">Seccion 4</div>
+			<div class="pantalla-cuatro section">
+				<div class="container">
+					<div class="row">
+						<p>Personal amable, físicamente aptos y equipados con  equipo de seguridad personal (Overoles, guantes, fajas de protección lumbar), con la finalidad de estar preparados para realizar las diferentes tareas encomendadas.</p><br>
+						<img src="img/equipo.jpg" width="75%" class="center" alt="">
+					</div>
+				</div>
+			</div>
 			<div class="pantalla-cinco section">Seccion 5</div>
 		</div>
 	</body>
