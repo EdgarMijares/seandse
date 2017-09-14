@@ -5,7 +5,13 @@ $marca: #ff7400
 $naranja2: rgba(255, 133, 27, 1)
 $naranja3: rgba(255, 133, 27, .5)
 
-$fuente: monospace, monospace
+$fuente: regular, arial
+
+@font-face
+	font-family: regular
+	font-style: normal
+	font-weight: normal
+	src: url(../fonts/normal.ttf)
 //RESET
 *
 	margin: 0
@@ -15,6 +21,7 @@ $fuente: monospace, monospace
 	-ms-box-sizing: border-box
 	-o-box-sizing: border-box
 	box-sizing: border-box
+	font-family: regular
 
 //IMPORTS
 @import _menu

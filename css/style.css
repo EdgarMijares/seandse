@@ -1,3 +1,8 @@
+@font-face {
+  font-family: regular;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/normal.ttf); }
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,8 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: regular; }
 
 .menu-bar {
   display: none; }
@@ -20,7 +26,7 @@
     float: right;
     margin-right: 10em; }
   .menu a {
-    font-family: monospace, monospace;
+    font-family: regular, arial;
     font-size: 1em;
     font-weight: 500;
     color: #000;
