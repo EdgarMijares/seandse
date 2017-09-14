@@ -91,7 +91,8 @@
 						<div class="col s12 m6">
 							<img src="img/ford.jpg" width="100%" alt="">
 						</div>
-						<div class="col s12 m6">
+						<div class="col s1"></div>
+						<div class="col s12 m5">
 							<p>Capacidad de Carga: 3.5 toneladas.</p><br>
 							<p>Dimensiones de cajaseca: <br>Largo: 3.44mts. <br>Alto:1.92mts. <br>Ancho: 2.38mts.</p><br>
 							<p>Copete: <br>Largo: 0.78 mts. <br>Alto:1.04mts. <br>Ancho: 2.38mts.</p>							
