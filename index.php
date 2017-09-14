@@ -50,15 +50,15 @@
 			<div class="pantalla-tres section">
 				<div class="container">
 					<div class="row">
-						<div class="col s12 m4">
+						<div class="col s12 m3">
 							<h3>Equipo</h3>
 						</div>
-						<div class="col s12 m8">
+						<div class="col s12 m9">
 							<h3>Mercedez-Benz sprinter</h3>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col s12 offset-m4">
+						<div class="col s12 offset-m3">
 							<div class="row">
 								<div class="col s12 m6">
 									<img src="img/mercedez.jpg" width="90%" alt="">
@@ -82,7 +82,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="pantalla-cinco section">Seccion 5</div>
+			<div class="pantalla-cinco section">
+				<div class="container">
+					<div class="row">
+						<h3 style="text-align: center;">Ford F-350</h3><br>
+					</div>
+					<div class="row">
+						<div class="col s12 m6">
+							<img src="img/ford.jpg" width="100%" alt="">
+						</div>
+						<div class="col s12 m6">
+							<p>Capacidad de Carga: 3.5 toneladas.</p><br>
+							<p>Dimensiones de cajaseca: <br>Largo: 3.44mts. <br>Alto:1.92mts. <br>Ancho: 2.38mts.</p><br>
+							<p>Copete: <br>Largo: 0.78 mts. <br>Alto:1.04mts. <br>Ancho: 2.38mts.</p>							
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 
