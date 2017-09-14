@@ -32,7 +32,7 @@
 			<div class="pantalla-cinco section">Seccion 5</div>
 		</div>
 	</body>
-	
+
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/vendors/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="js/vendors/scrolloverflow.min.js"></script>
