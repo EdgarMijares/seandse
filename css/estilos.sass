@@ -25,6 +25,7 @@ $fuente: regular, Arial
 
 //IMPORTS
 @import _menu
+@import _posisiones
 
 body
 	background: #FFF
@@ -70,6 +71,38 @@ img.center
 	display: block
 	margin: auto
 
+
+footer
+	background: $naranja
+	bottom: 0px
+	color: white
+	height: 40px
+	position: absolute
+	padding-top: 7px
+	width: 100%
+	.row
+		position: relative
+	.marca
+		position: absolute
+		left: 10px
+		top: 0px
+		a
+			color: white
+			text-decoration: none
+	.contacto
+		a
+			color: white
+			text-decoration: none
+	.icon-footer
+		color: white
+		margin: 0 10px
+	
+	.icons-wrapper 
+		font-size: 1em
+		position: absolute
+		right: 15px
+		top: 0px
+
 @media screen and (max-width: 900px)
 	.container
 		font-size: 1em
@@ -79,3 +112,9 @@ img.center
 			text-align: center
 		.logo
 			display: hidden
+	img.center
+		width: 95% 
+
+	footer
+		.contacto
+			display: none

@@ -93,6 +93,44 @@
 @media screen and (max-width: 600px) {
   .banner .logo {
     width: 80%; } }
+.hide {
+  display: none !important; }
+
+.left-align {
+  text-align: left; }
+
+.right-align {
+  text-align: right; }
+
+.center, .center-align {
+  text-align: center; }
+
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
+.no-select {
+  user-select: none; }
+
+.circle {
+  border-radius: 50%; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.no-padding {
+  padding: 0 !important; }
+
 body {
   background: #FFF; }
 
@@ -137,6 +175,35 @@ img.center {
   display: block;
   margin: auto; }
 
+footer {
+  background: rgba(255, 133, 27, 0.9);
+  bottom: 0px;
+  color: white;
+  height: 40px;
+  position: absolute;
+  padding-top: 7px;
+  width: 100%; }
+  footer .row {
+    position: relative; }
+  footer .marca {
+    position: absolute;
+    left: 10px;
+    top: 0px; }
+    footer .marca a {
+      color: white;
+      text-decoration: none; }
+  footer .contacto a {
+    color: white;
+    text-decoration: none; }
+  footer .icon-footer {
+    color: white;
+    margin: 0 10px; }
+  footer .icons-wrapper {
+    font-size: 1em;
+    position: absolute;
+    right: 15px;
+    top: 0px; }
+
 @media screen and (max-width: 900px) {
   .container {
     font-size: 1em;
@@ -145,6 +212,12 @@ img.center {
       padding-top: 30px;
       text-align: center; }
     .container .logo {
-      display: hidden; } }
+      display: hidden; }
+
+  img.center {
+    width: 95%; }
+
+  footer .contacto {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

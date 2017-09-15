@@ -89,9 +89,8 @@
 					</div>
 					<div class="row">
 						<div class="col s12 m6">
-							<img src="img/ford.jpg" width="100%" alt="">
+							<img src="img/ford.jpg" width="90%" alt="">
 						</div>
-						<div class="col s1"></div>
 						<div class="col s12 m5">
 							<p>Capacidad de Carga: 3.5 toneladas.</p><br>
 							<p>Dimensiones de cajaseca: <br>Largo: 3.44mts. <br>Alto:1.92mts. <br>Ancho: 2.38mts.</p><br>
@@ -102,6 +101,19 @@
 			</div>
 		</div>
 	</body>
+	<footer>
+		<div class="row">
+			<div class="col m12 center contacto">
+				 <a href="mailto:email@mail.com.mx">email@mail.com.mx</a>
+			</div>
+			<div class="right-align icons-wrapper">
+				<a class="icon-footer" href="https://www.facebook.com/Fletesymudanzasyouhaul/" target="_blank"><i class="fa fa-facebook"></i></a>
+			</div>
+			<div class="marca">
+				<a href="http://pssoftware.com.mx/" target="_blank">You Haul-SE&SE</a> <span class="center">Tel: <a href="tel:+(52)4422453151">+(52) 442 245 3151</a></span>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript" src="js/vendor/jquery.easings.min.js"></script>
