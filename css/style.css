@@ -129,25 +129,17 @@
   width: 100%;
   text-align: center;
   font-family: regular, Arial;
-  font-size: 1.5em;
-  height: 100px;
+  height: auto;
   display: inline-block; }
   .mapa #map {
     width: 100%;
-    height: 300px; }
-
-.redes {
-  width: 100%;
-  display: block;
-  font-size: 2em;
-  background: rgba(255, 133, 27, 0.9);
-  text-align: center;
-  padding: 15px;
-  margin: 15px 0; }
-  .redes a {
-    text-decoration: none;
-    color: #FFF;
-    margin: 0 50px; }
+    height: 480px;
+    margin-top: 40px 0; }
+  .mapa h3 {
+    letter-spacing: 2px;
+    font-size: 1.7em; }
+  .mapa .direccion {
+    font-size: 1.2em; }
 
 @media screen and (max-width: 900px) {
   .formulario {
