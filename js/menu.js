@@ -6,6 +6,7 @@ var alto;
  
 function main(){
 	$('.menu-bar').click(function(){
+		console.log(contador);
 		if(contador == 1){
 			$('.menu').animate({
 				left: '0'
@@ -19,7 +20,12 @@ function main(){
 		}
 	});
 	center();
-	
+
+	$('.links').click(function(){
+		contador = 0;
+		$('.menu-bar').click();
+	});
+
 };
 
 function center() {
@@ -40,5 +46,6 @@ function fullpag() {
 	$('#fullpage').fullpage({
 		 sectionsColor: ['#FFF', 'orange', '#C0C0C0', '#ADD8E6'],
 		 paddingTop: '1.6em',
+		 anchors:['','acerca', 'equipo','','']
 	});
 }
