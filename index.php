@@ -39,7 +39,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col l12 offset-m5">
+					<div class="col l12 offset-m5 logo">
 						<img src="img/logo.svg" alt="Logo" class="logo">
 					</div>
 				</div>

@@ -30,7 +30,7 @@ function main(){
 };
 
 function center() {
-	alto = ($(window).height()/2) - $('.logo').height()/2 - 70;
+	alto = ($(window).height()/2) - $('.logo').height()/2 - 20;
 	console.log("El alto es de" + alto);
 	$('.logo').css("top",alto);
 

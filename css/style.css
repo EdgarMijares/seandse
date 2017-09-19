@@ -141,7 +141,14 @@ header {
         body header nav ul li:hover .children {
           display: none; }
         body header nav ul div {
-          display: block; }
+          display: block;
+          padding-left: 15px;
+          padding-top: calc(100% - 50px); }
+          body header nav ul div a {
+            font-weight: italic;
+            font-size: 0.8em;
+            text-decoration: none;
+            color: #FFFFFF; }
 
   .banner .logo {
     width: 80%; }
@@ -192,7 +199,7 @@ header {
   text-align: center;
   font-family: regular, Arial;
   height: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   position: relative;
   display: inline-block; }
   .mapa #map {
@@ -331,6 +338,9 @@ footer {
     right: 15px;
     top: 0px; }
 
+@media screen and (max-width: 1572px) {
+  .pantalla-dos .container .row .logo {
+    display: none; } }
 @media screen and (max-width: 900px) {
   .container {
     text-align: center; }
