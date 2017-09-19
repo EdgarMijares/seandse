@@ -209,7 +209,10 @@ header {
     .formulario input[type=text], .formulario input[type=email], .formulario textarea {
       width: 100%; }
     .formulario .boton {
-      width: 100%; } }
+      width: 100%; }
+
+  #map {
+    max-height: 500px; } }
 .hide {
   display: none !important; }
 
@@ -341,12 +344,24 @@ footer {
 
   .pantalla-tres .container {
     font-size: 0.8em; }
+  .pantalla-tres img {
+    width: 50%; }
 
   .pantalla-cuatro .container {
     font-size: 1em; }
+  .pantalla-cuatro img {
+    width: 70%; }
 
   .pantalla-cinco .container {
     font-size: 0.8em; }
+  .pantalla-cinco img {
+    width: 50%; }
+  .pantalla-cinco .row {
+    margin-bottom: 0 !important; }
+    .pantalla-cinco .row h3 {
+      margin-top: -20px !important; }
+  .pantalla-cinco .m6 {
+    margin-bottom: 20px !important; }
 
   footer .contacto {
     display: none; }
