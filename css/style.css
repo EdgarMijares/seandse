@@ -73,6 +73,8 @@ header {
         margin-right: 10px; }
       header nav ul li:hover .children {
         display: block; }
+      header nav ul div {
+        display: none; }
 
 .banner {
   background: url(../img/map.png) center no-repeat;
@@ -135,6 +137,8 @@ header {
             float: right; }
         body header nav ul li:hover .children {
           display: none; }
+        body header nav ul div {
+          display: block; }
 
   .banner .logo {
     width: 80%; } }

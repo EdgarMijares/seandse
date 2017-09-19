@@ -1,10 +1,10 @@
 $(document).ready(main);
-
  
 var contador = 1;
 var alto;
  
 function main(){
+	
 	$('.menu_bar').click(function(){
 		console.log(contador);
 		if(contador == 1){
@@ -21,15 +21,16 @@ function main(){
 	});
 	center();
 
-	$('.links').click(function(){
-		contador = 0;
-		$('.menu-bar').click();
-	});
-
+	if($(window).width() < 600){
+		$('.links').click(function(){
+			contador = 0;
+			$('.menu_bar').click();
+		});
+	}
 };
 
 function center() {
-	alto = ($(window).height()/2) - $('.logo').height()/2 - 60;
+	alto = ($(window).height()/2) - $('.logo').height()/2 - 70;
 	console.log("El alto es de" + alto);
 	$('.logo').css("top",alto);
 
