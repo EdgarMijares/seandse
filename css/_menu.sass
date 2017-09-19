@@ -64,7 +64,7 @@ header
 				display: none
 
 
-.banner
+.banner, .banner_contacto
 	background: url(../img/map.png) center no-repeat
 	background-attachment: fixed
 	background-size: cover
@@ -76,10 +76,12 @@ header
 		height: auto
 		width: 30%
 		position: relative
+.banner_contacto
+		padding-top: 60px
 
 @media screen and (max-width:600px)
 	body
-		padding-top: 80px
+		padding-top: 50px
 		header
 			.menu_bar
 				display: block
@@ -135,4 +137,6 @@ header
 		.logo
 			width: 80%
 
+	.banner_contacto
+		padding-top: 0
 

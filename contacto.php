@@ -17,18 +17,14 @@
 	<header>
 		<?php include("menu.html") ?>
 	</header>
-	<div class="banner" style="height: auto;">
+	<div class="banner_contacto" style="height: auto;">
 		<div class="container">
 			<form action="" method="post" class="formulario"> 
 				<input type="text" placeholder="* Nombre" name="nombre" required>
 				<input type="email" placeholder="* Correo" name="email" required>
 				<input type="text" placeholder="* Telefono" name="tel" required>
 				<textarea name="mensaje" placeholder="Mensaje:"></textarea>
-				<div class="row">
-					<div class="col s12">
-						<div class="g-recaptcha" data-sitekey="6Lc03TAUAAAAAGtRtD1NjTMcv_tHt7Lp6w2wJIGk"></div>
-					</div>
-				</div>
+				<div class="g-recaptcha" style="margin-left: 0px;" data-sitekey="6Lc03TAUAAAAAGtRtD1NjTMcv_tHt7Lp6w2wJIGk"></div>
 				<input class="boton" type="submit" value="Enviar">
 			</form>
 		</div>
