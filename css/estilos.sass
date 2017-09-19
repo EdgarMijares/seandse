@@ -1,6 +1,6 @@
 //VARIABLES
 $blanco: #FFFFFF
-$naranja: rgba(255, 133, 27, .9)
+$naranja: rgba(255, 133, 27, 1)
 $marca: #ff7400
 $naranja2: rgba(255, 133, 27, 1)
 $naranja3: rgba(255, 133, 27, .5)
@@ -26,11 +26,13 @@ $fuente: regular, Arial
 //IMPORTS
 @import _menu
 @import _contacto
-@import _posisiones
-
+@import _posiciones
 
 body
 	background: #FFF
+
+.pantalla-uno
+	padding: 0px
 
 .pantalla-dos
 	background: url(../img/pantallas/1.png)   no-repeat
@@ -82,6 +84,7 @@ footer
 	position: absolute
 	padding-top: 7px
 	width: 100%
+	z-index: 1100
 	.row
 		position: relative
 	.marca
@@ -107,16 +110,36 @@ footer
 
 @media screen and (max-width: 900px)
 	.container
-		font-size: 1em
 		text-align: center
 		.secon
 			padding-top: 30px
 			text-align: center
 		.logo
 			display: hidden
-	img.center
-		width: 95% 
+
+	.pantalla-dos
+		.container
+			font-size: 1em
+			div
+				img
+					width: 10%
+
+	.pantalla-tres
+		.container
+			font-size: 0.8em
+
+	.pantalla-cuatro
+		.container
+			font-size: 1em
+
+	.pantalla-cinco
+		.container
+			font-size: 0.8em 
 
 	footer
 		.contacto
 			display: none
+
+	div
+		.fp-tablecell
+			height: calc(100% - 70px)
