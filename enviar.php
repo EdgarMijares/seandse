@@ -25,9 +25,8 @@
     }
     $res = post_captcha($_POST['g-recaptcha-response']);
     echo "<script language=JavaScript>alert('$res');</script>";
-
     if ($res['success']) {
-    	$destino = "ldgamiz12@gmail.com";
+    	$destino = "contacto@pssfotware.com.mx";
     	$nombre = $filtro->process($_POST['nombre']);
     	$email = $filtro->process($_POST['email']);
     	$tel = $filtro->process($_POST['tel']);
@@ -39,7 +38,7 @@
 
     	mail($destino, $asunto, $final, $headers);
     	echo "<script language=JavaScript>alert('Su mensaje fue enviado, pronto recibira una respuesta. Gracias');</script>";
-    	header("Location:index.php");
+    	header("Location:contacto.php");
     } else {
     	echo "<script language=JavaScript>alert('Mensaje no enviado');</script>";
     	header("Location:contacto.php");
