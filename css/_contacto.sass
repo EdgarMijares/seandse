@@ -1,11 +1,9 @@
 .formulario
 	width: 100%
-	height: auto
-	margin: auto
 	//position: relative
 	input[type=text], input[type=email], textarea
 		border: 2px solid #B7B7B7
-		margin: 15px
+		margin-top: 15px
 		border-radius: 5px
 		width: 100%
 		padding: 15px 20px
@@ -55,11 +53,13 @@
 	.direccion
 		font-size: 1.2em
 
-@media screen and (max-width:900px)
-	.formulario
-		width: 90%
-		input[type=text], input[type=email], textarea
-			width: 100%
-		.boton
-			width: 100%
+@media screen and (max-width:600px)
+	body section
+		margin-top: 0px
+	body footer
+		position: relative
+	form
+		margin-top: 0px
+		margin-bottom: 35px
+
 

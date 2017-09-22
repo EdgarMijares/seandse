@@ -17,14 +17,10 @@
 			background: url("img/map.png") center no-repeat;
 			background-attachment: fixed;
 			background-size: cover;
+			padding-top: 0;
 		}
 		body section {
 			margin-top: 90px;
-		}
-		@media screen and (max-width: 600px) {
-			body section{
-				margin-top: 0px;
-			}	
 		}
 	</style>
 </head>
@@ -34,7 +30,7 @@
 	</header>
 	<section>
 		<form action="enviar.php" method="post" class="formulario"> 
-			<div class="container">
+			<div class="container ">
 				<div class="row">
 				</div>
 				<div class="row">
