@@ -29,7 +29,7 @@
 						<h3>Misión:</h3>
 						<p> 
 							Ser una empresa especialista de servicios de fletes, mudanzas y Transportación de bienes muebles y mercancías, brindándoles un servicio de alta 
-							calidad logística en el cuidado de bienes y productos conun destino seguro, con un sello de honestidad y espíritu de servicio.
+							calidad logística en el cuidado de bienes y productos con un destino seguro, con un sello de honestidad y espíritu de servicio.
 						</p>
 					</div>
 					<br>

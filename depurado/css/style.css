@@ -385,3 +385,9 @@ footer {
     height: calc(100% - 70px); } }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 1400px) {
+  .pantalla-cuatro .row img {
+    width: 55%
+  }
+}
+
