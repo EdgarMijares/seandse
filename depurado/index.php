@@ -5,6 +5,9 @@
 	<title>SE & SE</title>
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="keywords" content="fletes,mudanzas,transportación,fletes mexico,fletes durango,flete,fletes y mudanzas,mudanza,muebles y mudanzas,mudanzas en durango">
+	<meta name="description" content="Somos una empresa líder Mexicana de logística en Fletes, Mudanzas y Transportación de bienes Muebles y mercancías, personal amable, físicamente aptos y equipados con equipo de seguridad personal">
+	<meta name="author" content="Progress System Software">
 	
 	<link rel="stylesheet" href="css/sass/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
