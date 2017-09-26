@@ -47,7 +47,7 @@
 							<div class="col s12 numero">
 								<h4>Telefono: <a href="tel:+(52)6181093793">618 109 37 93</a></h4><br>
 								<p>
-									<a href="ubicacion.php">Calle Fuente de Cantos 422 Fracc. Las Fuentes, Durango, Dgo. CP. 34220</a>
+									<a href="ubicacion.php">Calle Fuente de Cantos 412 Fracc. Las Fuentes, Durango, Dgo. CP. 34220</a>
 								</p>
 							</div>
 						</div>

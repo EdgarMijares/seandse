@@ -32,7 +32,7 @@
 		<div class="mapa">
 			<h3>¿Donde nos encuentras?</h3>
 			<div class="direccion">
-				Calle <span>Fuente de Cantos 422 Fracc. Las Fuentes</span>
+				Calle <span>Fuente de Cantos 412 Fracc. Las Fuentes</span>
 				<span>Durango</span>
 				<span>Dgo</span>
 				CP. <span>34220</span>
