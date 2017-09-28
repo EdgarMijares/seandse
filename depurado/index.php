@@ -100,6 +100,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="pantalla-seis section">
+			<div class="slide">Slide 1</div>
+			<div class="slide">Slide 2</div>
+			<div class="slide">Slide 3</div>
+		</div>
 	</div>
 	<footer>
 		<?php include("footer.html") ?>

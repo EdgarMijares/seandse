@@ -5,6 +5,9 @@
 	<title>SE & SE</title>
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="keywords" content="fletes,mudanzas,transportación,fletes mexico,fletes durango,flete,fletes y mudanzas,mudanza,muebles y mudanzas,mudanzas en durango">
+	<meta name="description" content="Somos una empresa líder Mexicana de logística en Fletes, Mudanzas y Transportación de bienes Muebles y mercancías, personal amable, físicamente aptos y equipados con equipo de seguridad personal">
+	<meta name="author" content="Progress System Software">
 	
 	<link rel="stylesheet" href="css/sass/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
@@ -97,6 +100,24 @@
 				</div>
 			</div>
 		</div>
+		<div class="pantalla-seis section">
+			<div class="container">
+				<div class="row">
+					<h3 style="text-align: center;">Antecedentes</h3>
+				</div>
+			</div>
+			<div class="slide row">
+				<div class="recomendacion col s5">
+					<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
+					<h6>Nombre</h6>
+					<h4>Texto</h4>
+				</div>
+				<div class="trabajo col s6">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer>
 		<?php include("footer.html") ?>
@@ -113,7 +134,7 @@
 		function fullpag() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#FFF', 'orange', '#C0C0C0', '#ADD8E6'],
-				anchors:['index','acerca', 'equipo','',''],
+				anchors:['index','acerca', 'equipo','','','antecedentes'],
 				menu: '#myMenu'
 			});
 		}

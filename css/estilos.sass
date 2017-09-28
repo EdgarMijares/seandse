@@ -61,7 +61,29 @@ body
 	background-size: cover
 	width: 100%
 	height: 100%
-
+.pantalla-seis
+	@extend .pantalla-cuatro
+	h3
+		margin-top: 20px
+.slide
+	.recomendacion
+		border: 1px solid black
+		height: auto
+		text-align: center
+		font-size: 2em
+		color: $blanco
+		.perfil
+			border: 4px solid $naranja
+			display: block
+			background-position: center
+			background-size: cover
+			margin: auto
+			border-radius: 100%
+			width: 200px !important
+			height: 200px !important
+	.trabajo
+		border: 1px solid black	
+		font-size: 1.3em
 .container
 	color: $blanco
 	font-size: 1.6em
@@ -170,3 +192,6 @@ footer
 	div
 		.fp-tablecell
 			height: calc(100% - 70px)
+@media screen and (max-width: 1400px)
+	.pantalla-cuatro .row img
+		width: 55%

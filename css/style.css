@@ -274,7 +274,7 @@ body {
   width: 100%;
   height: 100%; }
 
-.pantalla-cuatro {
+.pantalla-cuatro, .pantalla-seis {
   background: url(../img/pantallas/3.png) center no-repeat;
   background-position: center center no-repeat;
   background-size: cover;
@@ -287,6 +287,28 @@ body {
   background-size: cover;
   width: 100%;
   height: 100%; }
+
+.pantalla-seis h3 {
+  margin-top: 20px; }
+
+.slide .recomendacion {
+  border: 1px solid black;
+  height: auto;
+  text-align: center;
+  font-size: 2em;
+  color: #FFFFFF; }
+  .slide .recomendacion .perfil {
+    border: 4px solid #ff851b;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 100%;
+    width: 200px !important;
+    height: 200px !important; }
+.slide .trabajo {
+  border: 1px solid black;
+  font-size: 1.3em; }
 
 .container {
   color: #FFFFFF;
@@ -362,9 +384,9 @@ footer {
   .pantalla-tres img {
     width: 50%; }
 
-  .pantalla-cuatro .container {
+  .pantalla-cuatro .container, .pantalla-seis .container {
     font-size: 1em; }
-  .pantalla-cuatro img {
+  .pantalla-cuatro img, .pantalla-seis img {
     width: 70%; }
 
   .pantalla-cinco .container {
@@ -383,5 +405,8 @@ footer {
 
   div .fp-tablecell {
     height: calc(100% - 70px); } }
+@media screen and (max-width: 1400px) {
+  .pantalla-cuatro .row img, .pantalla-seis .row img {
+    width: 55%; } }
 
 /*# sourceMappingURL=style.css.map */
