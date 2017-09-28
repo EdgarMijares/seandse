@@ -102,20 +102,64 @@
 		</div>
 		<div class="pantalla-seis section">
 			<div class="container">
-				<div class="row">
-					<h3 style="text-align: center;">Antecedentes</h3>
+				<div class="row s12">
+					<h3 class="center">Antecedentes</h3>
 				</div>
-			</div>
-			<div class="slide row">
-				<div class="recomendacion col s5">
-					<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
-					<h6>Nombre</h6>
-					<h4>Texto</h4>
+				<div class="carousel carousel-slider" data-indicators="true" style="height: 400px !important;">
+					<div class="carousel-item red white-text" href="#one!">
+						<h2 class="center">Primer Panel</h2>
+						<div class="row">
+							<div class="recomendacion col s5 center">
+								<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
+								<h6>Nombre</h6>
+								<h5>Texto</h5>
+							</div>
+							<div class="trabajo col s7">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item amber white-text" href="#two!">
+						<h2>Segundo Panel</h2>
+						<p class="white-text">l</p>
+					</div>
+					<div class="carousel-item green white-text" href="#three!">
+						<h2>Tercero Panel</h2>
+						<p class="white-text"></p>
+					</div>
+					<div class="carousel-item blue white-text" href="#four!">
+						<h2>Cuarto Panel</h2>
+						<p class="white-text">l</p>
+					</div>
 				</div>
-				<div class="trabajo col s6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+				<!--div class="slide size">
+
+					<div class="row">
+						<div class="recomendacion col s5">
+							<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Nombre</h6>
+							<h4>Texto</h4>
+						</div>
+						<div class="trabajo col s7">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+						</div>
+					</div>
 				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s5">
+							<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Nombre</h6>
+							<h4>Texto</h4>
+						</div>
+						<div class="trabajo col s7">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+						</div>
+					</div>
+				</div-->
 			</div>
 		</div>
 	</div>
@@ -127,9 +171,12 @@
 	<script type="text/javascript" src="js/vendor/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/menu.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script>
+		$('.carousel.carousel-slider').carousel({fullWidth: true});
+		$('.carousel.carousel-slider').carousel({fullWidth: true});
 		$(document).ready(fullpag);
 		function fullpag() {
 			$('#fullpage').fullpage({
