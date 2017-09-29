@@ -209,14 +209,20 @@
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/menu.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/autoslider.js"></script>
 	<script>
-		$('.carousel.carousel-slider').carousel({fullWidth: true});
 		$(document).ready(fullpag);
 		function fullpag() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#FFF', 'orange', '#C0C0C0', '#ADD8E6'],
 				anchors:['index','acerca', 'equipo','','','antecedentes'],
-				menu: '#myMenu'
+				menu: '#myMenu',
+				loopBottom: true,
+        		afterRender: function () {
+            		setInterval(function () {
+                		$.fn.fullpage.moveSlideRight();
+            		}, 2000);
+        		}
 			});
 		}
 	</script>
