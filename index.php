@@ -105,61 +105,96 @@
 				<div class="row s12">
 					<h3 class="center">Antecedentes</h3>
 				</div>
-				<div class="carousel carousel-slider" data-indicators="true">
-					<div class="carousel-item red white-text" href="#one!">
-						<h2 class="center">Primer Panel</h2>
-						<div class="row">
-							<div class="recomendacion col s5 center">
-								<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
-								<h6>Nombre</h6>
-								<h5>Texto</h5>
-							</div>
-							<div class="trabajo col s7">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item amber white-text" href="#two!">
-						<h2>Segundo Panel</h2>
-						<p class="white-text">l</p>
-					</div>
-					<div class="carousel-item green white-text" href="#three!">
-						<h2>Tercero Panel</h2>
-						<p class="white-text"></p>
-					</div>
-					<div class="carousel-item blue white-text" href="#four!">
-						<h2>Cuarto Panel</h2>
-						<p class="white-text">l</p>
-					</div>
-				</div>
-				<!--div class="slide size">
-
+				<div class="slide">
 					<div class="row">
-						<div class="recomendacion col s5">
-							<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
-							<h6>Nombre</h6>
-							<h4>Texto</h4>
-						</div>
-						<div class="trabajo col s7">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+						<div class="recomendacion col s12">
+							<img src="img/torreon.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Torreón</h6>
+							<h4>Coahuila</h4>
 						</div>
 					</div>
 				</div>
 				<div class="slide">
 					<div class="row">
-						<div class="recomendacion col s5">
-							<img src="img/perfil.jpg" alt="perfil" width="40%" class="perfil">
-							<h6>Nombre</h6>
-							<h4>Texto</h4>
-						</div>
-						<div class="trabajo col s7">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sapiente, eligendi atque officia perferendis, aut molestiae. Vero consequatur nesciunt, repellendus quo sequi quos sed aliquam, excepturi deserunt iste totam accusamus.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorum ducimus vero sed ab ad quae, repellendus nulla! Autem, quo molestias esse ad nesciunt reprehenderit veritatis perspiciatis, dolor nemo eveniet?</p>
+						<div class="recomendacion col s12">
+							<img src="img/aguascalientes.png" alt="perfil" width="40%" class="perfil">
+							<h6>Aguascalientes</h6>
+							<h4>Aguascalientes</h4>
 						</div>
 					</div>
-				</div-->
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/atizapan.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Atizapan de Zaragoza</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/mezquital.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>El Mezquital</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/gomezPalacio.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Gómez Palacio</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/guadalupeVictoria.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Guadalupe Victoria</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/chimalhuacan.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Chimalhuacan</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/nuevoideal.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Nuevo Ideal</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/sanLuis.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>San Luis Potosí</h6>
+							<h4>S.L.P</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/tlanepantla.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Tlanepantla</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

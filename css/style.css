@@ -290,9 +290,10 @@ body {
 
 .pantalla-seis h3 {
   margin-top: 20px; }
+.pantalla-seis .fp-tableCell {
+  height: 500px !important; }
 
 .recomendacion {
-  border: 1px solid black;
   text-align: center;
   font-size: 1.2em;
   color: #FFFFFF; }
@@ -303,15 +304,11 @@ body {
     background-size: cover;
     margin: auto;
     border-radius: 100%;
-    width: 200px !important;
-    height: 200px !important; }
+    width: 400px !important;
+    height: 400px !important; }
 
 .trabajo {
-  border: 1px solid black;
   font-size: 1em; }
-
-.carousel {
-  height: 400px !important; }
 
 .container {
   color: #FFFFFF;
@@ -406,8 +403,20 @@ footer {
   .pantalla-cinco .m6 {
     margin-bottom: 20px !important; }
 
-  .pantalla-seis .carousel {
-    height: 300px !important; }
+  .pantalla-seis {
+    margin-top: 40px;
+    display: block; }
+    .pantalla-seis h3 {
+      font-size: 1.5em; }
+    .pantalla-seis .fp-tableCell {
+      height: 200px; }
+    .pantalla-seis .recomendacion {
+      width: 100%;
+      display: inline-block;
+      font-size: 2em; }
+    .pantalla-seis .perfil {
+      width: 300px !important;
+      height: 300px !important; }
 
   footer .contacto {
     display: none; }
