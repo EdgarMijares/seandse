@@ -105,7 +105,7 @@
 				<div class="row s12">
 					<h3 class="center">Antecedentes</h3>
 				</div>
-				<div class="carousel carousel-slider" data-indicators="true" style="height: 400px !important;">
+				<div class="carousel carousel-slider" data-indicators="true">
 					<div class="carousel-item red white-text" href="#one!">
 						<h2 class="center">Primer Panel</h2>
 						<div class="row">
@@ -175,7 +175,6 @@
 	<script type="text/javascript" src="js/menu.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script>
-		$('.carousel.carousel-slider').carousel({fullWidth: true});
 		$('.carousel.carousel-slider').carousel({fullWidth: true});
 		$(document).ready(fullpag);
 		function fullpag() {
