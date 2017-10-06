@@ -52,9 +52,9 @@
 				</div>
 				<form action="enviar.php" method="POST" class="formulario"> 
 					<div class="col s12 m6 push-m0">
-						<input type="text" placeholder="* Nombre" name="nombre" required>
-						<input type="email" placeholder="* Correo" name="email" required>
-						<input type="text" placeholder="* Telefono" name="tel" required>
+						<input name="nombre" type="text" placeholder="* Nombre" required>
+						<input name="email" type="email" placeholder="* Correo" required>
+						<input name="tel" type="text" placeholder="* Telefono" required>
 						<textarea name="mensaje" placeholder="Mensaje:"></textarea>
 						<div class="g-recaptcha" data-sitekey="6Lc03TAUAAAAAGtRtD1NjTMcv_tHt7Lp6w2wJIGk"></div>
 						<input class="boton" type="submit" value="Enviar">
