@@ -26,7 +26,7 @@
 
     $res = post_captcha($_POST['g-recaptcha-response']);
     if ($res['success']) {
-    	$destino = "ceo@pssoftware.com.mx";
+    	$destino = "contacto@seandse.com";
     	$nombre = $_POST['nombre'];
     	$email = $_POST['email'];
     	$tel = $_POST['tel'];
