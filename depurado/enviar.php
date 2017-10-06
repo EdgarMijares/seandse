@@ -23,10 +23,10 @@
 
         return json_decode($result, true);
     }
+
     $res = post_captcha($_POST['g-recaptcha-response']);
-    echo "<script language=JavaScript>alert('$res');</script>";
     if ($res['success']) {
-    	$destino = "contacto@pssfotware.com.mx";
+    	$destino = "ceo@pssoftware.com.mx";
     	$nombre = $filtro->process($_POST['nombre']);
     	$email = $filtro->process($_POST['email']);
     	$tel = $filtro->process($_POST['tel']);
@@ -37,12 +37,10 @@
     	$headers= 'From:'.$_POST['email'] . "\r\n" . 'Reply-To:'.$_POST['email']."\r\n".'X-Mailer:PHP/'.phpversion();
 
     	mail($destino, $asunto, $final, $headers);
-    	echo "<script language=JavaScript>alert('Su mensaje fue enviado, pronto recibira una respuesta. Gracias');</script>";
+    	echo "<script language=JavaScript>alert('Su mensaje fue enviado, pronto recibira una respuesta. Gracias'" . $nombre .");</script>";
     	header("Location:contacto.php");
     } else {
+    	//header("Location:contacto.php");
     	echo "<script language=JavaScript>alert('Mensaje no enviado');</script>";
-    	header("Location:contacto.php");
     }
-
-
 ?>

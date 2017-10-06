@@ -100,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="pantalla-seis section">
+		<div class="pantalla-seis section valign-wrapper">
 			<div class="container">
 				<div class="row s12">
 					<h3 class="center">Antecedentes</h3>
@@ -117,7 +117,7 @@
 				<div class="slide">
 					<div class="row">
 						<div class="recomendacion col s12">
-							<img src="img/aguascalientes.png" alt="perfil" width="40%" class="perfil">
+							<img src="img/aguascalientes.jpg" alt="perfil" width="40%" class="perfil">
 							<h6>Aguascalientes</h6>
 							<h4>Aguascalientes</h4>
 						</div>
@@ -207,9 +207,8 @@
 	<script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script type="text/javascript" src="js/menu.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/autoslider.js"></script>
 	<script>
 		$(document).ready(fullpag);
 		function fullpag() {
@@ -221,7 +220,7 @@
         		afterRender: function () {
             		setInterval(function () {
                 		$.fn.fullpage.moveSlideRight();
-            		}, 2000);
+            		}, 5000);
         		}
 			});
 		}

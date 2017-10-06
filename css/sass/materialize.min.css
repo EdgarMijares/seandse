@@ -1955,9 +1955,6 @@ td,
 th {
   padding: 0; }
 
-/*@import "components/badges";
-@import "components/global";
-@import "components/icons-material-design";*/
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -2594,6 +2591,9 @@ th {
   .carousel .carousel-item:not(.active) .materialboxed {
     pointer-events: none; }
 
+/*@import "components/badges";
+@import "components/global";
+@import "components/icons-material-design";*/
 /*@import "components/navbar";
 @import "components/roboto";
 @import "components/typography";

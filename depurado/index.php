@@ -2,12 +2,18 @@
 <html lang="es_MX">
 <head>
 	<meta charset="UTF-8">
-	<title>SE & SE</title>
+	<title>You Haul-SE&SE - Fletes y Mudanzas</title>
 
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta name="keywords" content="fletes,mudanzas,transportación,fletes mexico,fletes durango,flete,fletes y mudanzas,mudanza,muebles y mudanzas,mudanzas en durango">
+	<meta name="keywords" content="fletes,mudanzas,transportación,fletes mexico,fletes durango,fletes y mudanzas,mudanza,muebles y mudanzas,mudanzas en durango">
 	<meta name="description" content="Somos una empresa líder Mexicana de logística en Fletes, Mudanzas y Transportación de bienes Muebles y mercancías, personal amable, físicamente aptos y equipados con equipo de seguridad personal">
 	<meta name="author" content="Progress System Software">
+
+	<meta property="og:title" content="You Haul-SE&SE - Fletes y Mudanzas " />
+	<meta property="og:type" content="website"/>
+	<meta propwrty="og:description" content="Somos una empresa líder Mexicana de logística en Fletes, Mudanzas y Transportación de bienes Muebles y mercancías, personal amable, físicamente aptos y equipados con equipo de seguridad personal.">
+	<meta property="og:url" content="http://seandse.com/"/>
+	<meta property="og:image" content="http://seandse.com/img/meta.png"/>
 	
 	<link rel="stylesheet" href="css/sass/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
@@ -100,10 +106,102 @@
 				</div>
 			</div>
 		</div>
-		<div class="pantalla-seis section">
-			<div class="slide">Slide 1</div>
-			<div class="slide">Slide 2</div>
-			<div class="slide">Slide 3</div>
+		<div class="pantalla-seis section valign-wrapper">
+			<div class="container">
+				<div class="row s12">
+					<h3 class="center">Experiencia</h3>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/torreon.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Torreón</h6>
+							<h4>Coahuila</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/aguascalientes.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Aguascalientes</h6>
+							<h4>Aguascalientes</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/atizapan.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Atizapan de Zaragoza</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/mezquital.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>El Mezquital</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/gomezPalacio.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Gómez Palacio</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/guadalupeVictoria.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Guadalupe Victoria</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/chimalhuacan.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Chimalhuacan</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/nuevoideal.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Nuevo Ideal</h6>
+							<h4>Durango</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/sanluis.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>San Luis Potosí</h6>
+							<h4>S.L.P</h4>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row">
+						<div class="recomendacion col s12">
+							<img src="img/tlanepantla.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Tlanepantla</h6>
+							<h4>Estado de México</h4>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<footer>
@@ -114,15 +212,64 @@
 	<script type="text/javascript" src="js/vendor/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="js/menu.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="application/ld+json">
+		{"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "You Haul SE&SE Seguridad y Servicio",
+			"url": "http://seandse.com",
+			"logo": "http://seandse.com/img/logo.svg",
+			"sameAs": [
+				"https://www.facebook.com/Fletesymudanzasyouhaul/"
+				],
+			"contactPoint": [{
+				"@type":"ContactPoint",
+					"telephone": "+52618-109-37-93",
+					"contactType": "customer service",
+					"areaServed": "MX",
+					"email": "contacto@seandse.com"
+			}],
+			"location":{
+				"@type": "Place",
+				"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday",
+					"Saturday"
+				],
+					"opens": "9:00",
+					"closes": "16:00"
+				}],
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Durango",
+					"addressRegion": "Durango",
+					"addressCountry": "MX",
+					"postalCode": "34220",
+					"streetAddress": "Calle Fuente de Cantos 412 Fracc. Las Fuentes"
+				}
+			}
+		}
+	</script>
 	<script>
 		$(document).ready(fullpag);
 		function fullpag() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#FFF', 'orange', '#C0C0C0', '#ADD8E6'],
-				anchors:['index','acerca', 'equipo','',''],
-				menu: '#myMenu'
+				anchors:['index','acerca', 'equipo','','','antecedentes'],
+				menu: '#myMenu',
+				loopBottom: true,
+        		afterRender: function () {
+            		setInterval(function () {
+                		$.fn.fullpage.moveSlideRight();
+            		}, 5000);
+        		}
 			});
 		}
 	</script>
