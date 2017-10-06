@@ -24,9 +24,9 @@
         return json_decode($result, true);
     }
 
-    $res = post_captcha($_POST['g-recaptcha-response']);
+    $res ="success";
     if ($res['success']) {
-    	$destino = "ceo@pssoftware.com.mx";
+    	$destino = "ldgamiz12@gmail.com";
     	$nombre = $filtro->process($_POST['nombre']);
     	$email = $filtro->process($_POST['email']);
     	$tel = $filtro->process($_POST['tel']);
