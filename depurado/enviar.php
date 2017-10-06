@@ -24,13 +24,13 @@
         return json_decode($result, true);
     }
 
-    $res ="success";
+    $res = post_captcha($_POST['g-recaptcha-response']);
     if ($res['success']) {
-    	$destino = "ldgamiz12@gmail.com";
-    	$nombre = $filtro->process($_POST['nombre']);
-    	$email = $filtro->process($_POST['email']);
-    	$tel = $filtro->process($_POST['tel']);
-    	$mensaje = $filtro->process($_POST['mensaje']);
+    	$destino = "ceo@pssoftware.com.mx";
+    	$nombre = $_POST['nombre'];
+    	$email = $_POST['email'];
+    	$tel = $_POST['tel'];
+    	$mensaje = $_POST['mensaje'];
 
     	$final = "Nombre: " . $nombre . "\nTelefono: " . $tel . "\nCorreo: " . $email . "\nMensaje: " . $mensaje;
     	$asunto = $nombre. " intenta contactar contigo";
@@ -40,7 +40,7 @@
     	echo "<script language=JavaScript>alert('Su mensaje fue enviado, pronto recibira una respuesta. Gracias'" . $nombre .");</script>";
     	header("Location:contacto.php");
     } else {
-    	//header("Location:contacto.php");
     	echo "<script language=JavaScript>alert('Mensaje no enviado');</script>";
+    	header("Location:contacto.php");
     }
 ?>
