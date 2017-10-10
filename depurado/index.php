@@ -177,8 +177,8 @@
 				<div class="slide">
 					<div class="row">
 						<div class="recomendacion col s12">
-							<img src="img/nuevoideal.jpg" alt="perfil" width="40%" class="perfil">
-							<h6>Nuevo Ideal</h6>
+							<img src="img/harinera.jpg" alt="perfil" width="40%" class="perfil">
+							<h6>Harinera MINSA</h6>
 							<h4>Durango</h4>
 						</div>
 					</div>
