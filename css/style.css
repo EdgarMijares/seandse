@@ -419,8 +419,9 @@ footer {
       display: inline-block;
       font-size: 2em; }
     .pantalla-seis .perfil {
-      width: 300px !important;
-      height: 300px !important; }
+      width: 230px !important;
+      height: 230px !important;
+      margin-bottom: 20px; }
     .pantalla-seis .fp-controlArrow {
       opacity: 0.5; }
 

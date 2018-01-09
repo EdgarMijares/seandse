@@ -20,6 +20,8 @@
 	
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" type="text/css"s rel="stylesheet">
+	<style>.fp-slidesContainer{margin-top: -60px;}</style>
+	<meta name="theme-color" content="#FF7B1B">
 </head>
 <body>
 	<header>
@@ -213,7 +215,7 @@
 	<script type="text/javascript" src="js/vendor/scrolloverflow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/menu.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="application/ld+json">
 		{"@context": "http://schema.org",

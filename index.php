@@ -14,6 +14,7 @@
 	
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" type="text/css"s rel="stylesheet">
+	<style>.fp-slidesContainer{margin-top: -50px;}</style>
 </head>
 <body>
 	<header>
@@ -180,7 +181,7 @@
 				<div class="slide">
 					<div class="row">
 						<div class="recomendacion col s12">
-							<img src="img/sanLuis.jpg" alt="perfil" width="40%" class="perfil">
+							<img src="img/sanluis.jpg" alt="perfil" width="40%" class="perfil">
 							<h6>San Luis Potosí</h6>
 							<h4>S.L.P</h4>
 						</div>
